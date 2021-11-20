@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "image": "/images/goldengate.png",
+        "choir": "Golden Gate Choir",
+        "song": "Ngithe Amaha - Gospel Mission Choir"
+    },
+    {
+        "id": 2,
+        "image": "/images/emerald.png",
+        "choir": "Emerald Gospel Singers",
+        "song": "Ani Alimponya - Emerald Gospel Singers"
+    },
+    {
+        "id": 3,
+        "image": "/images/gmc.png",
+        "choir": "Gospel Mission Choir",
+        "song": "Ngithe Amaha - Gospel Mission Choir"
+    },
+    {
+        "id": 4,
+        "image": "/images/tri.png",
+        "choir": "Triuphant Gospel Singers",
+        "song": "Webale - Triuphant Gospel Singers"
+    },
+    {
+        "id": 5,
+        "image": "/images/tri.png",
+        "choir": "Triuphant Gospel Singers",
+        "song": "Webale - Triuphant Gospel Singers"
+    }
+]

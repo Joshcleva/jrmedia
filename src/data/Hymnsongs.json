@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "image": "/images/gmc1.png",
+        "language": "English Version",
+        "totalnumber": "384 English SDA hymn songs",
+        "choir" : "Choir: Heavenly Angels Choir"
+    },
+    {
+        "id": 2,
+        "image": "/images/gmc1.png",
+        "language": "Kiswahili Version",
+        "totalnumber": "237 Kiswahili SDA hymn songs",
+        "choir" : "Choir: Umoja Choir"
+    },
+    {
+        "id": 3,
+        "image": "/images/gmc1.png",
+        "language": "Luganda Version",
+        "totalnumber": "374 Luganda SDA hymn songs",
+        "choir" : "Choir: Golden Gate Choir"
+    },
+    {
+        "id": 4,
+        "image": "/images/gmc1.png",
+        "language": "Lukonzo Version",
+        "totalnumber": "184 Lukonzo SDA hymn songs",
+        "choir" : "Beautiful Zion Trumpets Choir"
+    },
+    {
+        "id": 5,
+        "image": "/images/gmc1.png",
+        "language": "Runyankole Version",
+        "totalnumber": "94 Runyankole SDA hymn songs",
+        "choir" : "Choir: Akayo Choir"
+    }
+]

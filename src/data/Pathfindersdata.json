@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "image": "/images/jsa.png",
+        "title": "Happy Mothers' Day - Jehovah Shalom Acapella",
+        "time": "4:21"
+    },
+    {
+        "id": 2,
+        "image": "/images/aoc.png",
+        "title": "Arankunda - Ambassadors Of Christ Choir",
+        "time": "5:01"
+    },
+    {
+        "id": 3,
+        "image": "/images/emerald.png",
+        "title": "Obulamu Bwensi - Gospel Mission Choir",
+        "time": "4:15"
+    },
+    {
+        "id": 4,
+        "image": "/images/gmc1.png",
+        "title": "Hangana - Beautiful Zion Trumpets Choir",
+        "time": "5:38"
+    },
+    {
+        "id": 5,
+        "image": "/images/gmc1.png",
+        "title": "Mwambie Yesu - Gospel Mission Choir",
+        "time": "4:12"
+    }
+]
