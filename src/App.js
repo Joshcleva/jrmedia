@@ -1,76 +1,33 @@
 import React from 'react';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import GlobalStyles from './GlobalStyles';
-import { Helmet } from 'react-helmet';
-import Header from './components/Header';
-import Popular from "./components/Popular";
-import Newhot from './components/Newhot';
-import About from './pages/About';
-import Privacy from './pages/Privacy';
-import Sign from './pages/Sign';
-import Terms from './pages/Terms';
-import Upload from './pages/Upload';
-import Contact from './pages/Contact';
-import Dashboard from './components/Dashboard';
-import Artist from "./components/Artist";
-import Home from './pages/Home';
-import Footer from './components/Footer';
-import Sideview from './components/Sideview';
-import ScrollToTop from './components/ScrollToTop';
-import Songdetail from './components/Songdetail';
+import {BrowserRouter as Router,Route,Switch} from 'react-router-dom'; 
+import Home from './components/Home';
+import Navbar from './components/partial/Navbar';
+import Footer from './components/partial/Footer';
+import About from './components/About';
+import Services from './components/Services';
+import Single from './components/Single';
+import Gallery from './components/Gallery';
+import Contact from './components/Contact';
 
 
-function App () {
-  <Helmet>
-    <title>Ta8Beats.com</title>
-  </Helmet> 
-
+function App() {
   return (
-    <Router>
-      <ScrollToTop />
-      <GlobalStyles />
-      <Header />
-      <Sideview />
-      <Switch>
-        <Route path="/songdetail">
-          <Songdetail />
-        </Route>
-        <Route path="/popular">
-          <Popular />
-        </Route>
-        <Route path="/newhot">
-          <Newhot />
-        </Route>
-        <Route path="/artist">
-          <Artist />
-        </Route>
-        <Route path="/dashboard">
-          <Dashboard />
-        </Route>
-        <Route path="/about">
-          <About />
-        </Route>
-        <Route path="/contact">
-          <Contact />
-        </Route>
-        <Route path="/privacy">
-          <Privacy />
-        </Route>
-        <Route path="/signup">
-          <Sign />
-        </Route>
-        <Route path="/terms">
-          <Terms />
-        </Route>
-        <Route path="/upload">
-          <Upload />
-        </Route>
-        <Route path="/">
-          <Home />
-        </Route>
-      </Switch>
-      <Footer />
-    </Router>
+    <div>
+      
+      <Router>
+        <Navbar/>
+          <Switch>
+            <Route exact path='/'component={Home}/>
+            <Route path='/about' component={About}/>
+            <Route path='/services' component={Services}/>
+            <Route path='/single' component={Single}/>
+            <Route path='/gallery' component={Gallery}/>
+            <Route path='/contact' component={Contact}/>
+          </Switch>
+        <Footer/>
+      </Router>
+      
+    </div>
   );
 }
 
