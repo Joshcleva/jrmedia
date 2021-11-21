@@ -183,7 +183,7 @@ class Home extends Component {
                       controls={true}
                       fluid={true}
                       width="auto"
-                      height="550px"
+                      height="300px"
                       url="https://www.youtube.com/watch?v=eG3zJDG6Stg"
                     />
                   </Link>
