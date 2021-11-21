@@ -29,7 +29,11 @@ class About extends Component {
             </h3>
             <div class="row mid-grids mt-lg-5 mt-3">
               <div class="col-md-5 content-w3pvt-img">
-                <img src="assets/images/ab1.jpg" alt="ceo-image" class="img-fluid" />
+                <img
+                  src="assets/images/ab1.jpg"
+                  alt="ceo-pic"
+                  class="img-fluid"
+                />
               </div>
               <div class="col-md-7 content-left-bottom entry-w3ls-info text-left mt-3">
                 <h5 class="mt-1">PHOTOGRAHY </h5>
@@ -62,7 +66,7 @@ class About extends Component {
                   controls={true}
                   fluid={true}
                   width="auto"
-                  height="300px"
+                  height="550px"
                   url="https://www.youtube.com/watch?v=eG3zJDG6Stg"
                 />
               </div>
@@ -107,7 +111,7 @@ class About extends Component {
                   <img
                     src="assets/images/t1.jpg"
                     class="img-fluid"
-                    alt="user-image"
+                    alt="user-pic"
                   />
                 </div>
                 <div class="team-info">
@@ -138,7 +142,7 @@ class About extends Component {
                   <img
                     src="assets/images/t2.jpg"
                     class="img-fluid"
-                    alt="user-image"
+                    alt="user-pic"
                   />
                 </div>
                 <div class="team-info">
@@ -168,7 +172,7 @@ class About extends Component {
                   <img
                     src="assets/images/t3.png"
                     class="img-fluid"
-                    alt="user-image"
+                    alt="user-pic"
                   />
                 </div>
                 <div class="team-info">

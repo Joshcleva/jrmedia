@@ -76,9 +76,9 @@ class Footer extends Component{
                   </ul>
                 </div>
                 <p class="copy-right-grids text-li text-center my-sm-4 my-4">
-                  © 2022 Jr Media Studio. All Rights Reserved | Design by
+                  © 2022 Jr Media Studio. All Rights Reserved | Design by 
                   <a href="http://joshcreativeprograma.netlify.app">
-                    Bwambale Joshua (JCP)
+                     Bwambale Joshua (JCP)
                   </a>
                 </p>
                 <div class="w3ls-footer text-center mt-4">
